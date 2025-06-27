@@ -3,7 +3,7 @@ const SvgPlayXs = () => (
   <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fill="currentColor"
-      d="m4 1.38 9.36 6.08L4 14.72V1.38Zm1 1.84v9.46l6.64-5.14L5 3.22Z"
+      d="M14.9 8 5 14.64V1.36L14.9 8ZM6 12.76 13.1 8 6 3.24v9.52Z"
     />
   </svg>
 );

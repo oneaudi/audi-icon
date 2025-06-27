@@ -3,7 +3,9 @@ const SvgPlayL = () => (
   <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       fill="currentColor"
-      d="M13 8.36 35.29 23.3 13 38.65V8.36Zm1 1.88v26.5l19.51-13.43L14 10.24Z"
+      fillRule="evenodd"
+      d="M37.88 24 16 39V8.99L37.88 24ZM17 37.1V10.89L36.12 24 17 37.1Z"
+      clipRule="evenodd"
     />
   </svg>
 );

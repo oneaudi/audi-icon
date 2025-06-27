@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgVideoCallDisabledActiveS = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M3.57 5H19v10.5c0 1.97-1.6 3.57-3.57 3.57H0V8.57C0 6.6 1.6 5 3.57 5ZM20 9.02l4-2.4v10.76l-4-2.4V9.02Z"
+    />
+  </svg>
+);
+export default SvgVideoCallDisabledActiveS;

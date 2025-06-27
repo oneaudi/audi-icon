@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgCompassNorthActiveS = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M15.6 10.23c.16.4.26.83.3 1.26H7.12c.05-.43.15-.85.32-1.26L11.5.02l4.08 10.2Zm.3 2.26a4.7 4.7 0 0 1-.3 1.27l-4.09 10.2-4.08-10.2a4.74 4.74 0 0 1-.32-1.27h8.8Z"
+    />
+  </svg>
+);
+export default SvgCompassNorthActiveS;
