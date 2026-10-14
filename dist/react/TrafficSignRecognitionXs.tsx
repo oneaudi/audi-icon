@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgTrafficSignRecognitionXs = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M8.5.92 15.82 15H1.18zm0 2.16L2.82 14h11.36zM8 10V6h1v4zm0 2.5V11h1v1.5z"
+    />
+  </svg>
+);
+export default SvgTrafficSignRecognitionXs;

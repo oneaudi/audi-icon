@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgDashboardL = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M3 3h10v10H3zm1 1v8h8V4zm15-1h10v10H19zm1 1v8h8V4zm15-1h10v10H35zm1 1v8h8V4zM3 19h10v10H3zm1 1v8h8v-8zm15-1h10v10H19zm1 1v8h8v-8zm15-1h10v10H35zm1 1v8h8v-8zM3 35h10v10H3zm1 1v8h8v-8zm15-1h10v10H19zm1 1v8h8v-8zm15-1h10v10H35zm1 1v8h8v-8z"
+    />
+  </svg>
+);
+export default SvgDashboardL;

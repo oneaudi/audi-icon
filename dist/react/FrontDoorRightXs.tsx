@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgFrontDoorRightXs = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M3 2.05c0-.6.38-1.13.95-1.32L5.48.2a4 4 0 0 1 1.3-.2h2.05q.57 0 1.13.16l2.03.58c.6.17 1.01.72 1.01 1.34V7.8l2.85 2.86-.7.7L12 8.21V2.08a.4.4 0 0 0-.29-.38l-2.03-.58A3 3 0 0 0 8.83 1H6.8q-.51 0-.99.16l-1.53.51a.4.4 0 0 0-.27.38V16H3zM11 15v1H5v-1zm2-3v4h-1v-4zm-2-5v1H5V7z"
+    />
+  </svg>
+);
+export default SvgFrontDoorRightXs;

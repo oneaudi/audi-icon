@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgCarWashXs = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M5.5 4V3h1v1zm2 0V3h1v1zm2 0V3h1v1zm-5 3V6h1v1zm3 0V6h1v1zm3 0V6h1v1zm-7 3V9h1v1zm4 0V9h1v1zm4 0V9h1v1zm-9 3v-1h1v1zm5 0v-1h1v1zm5 0v-1h1v1z"
+    />
+  </svg>
+);
+export default SvgCarWashXs;

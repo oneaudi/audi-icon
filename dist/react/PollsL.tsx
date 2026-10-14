@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgPollsL = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M19 3h10v37H19zm1 1v35h8V4zm13 8h10v28H33zm1 1v26h8V13zM5 19h10v21H5zm1 1v19h8V20zM5 44h38v1H5z"
+    />
+  </svg>
+);
+export default SvgPollsL;

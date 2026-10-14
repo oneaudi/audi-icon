@@ -1,0 +1,10 @@
+import * as React from "react";
+const SvgWorkS = () => (
+  <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill="currentColor"
+      d="M5 2h14v20h-6v-5h-2v5H5zm1 1v18h4v-5h4v5h4V3zm2 2h3v3H8zm1 1v1h1V6zm4-1h3v3h-3zm1 1v1h1V6zm-6 4h3v3H8zm1 1v1h1v-1zm4-1h3v3h-3zm1 1v1h1v-1z"
+    />
+  </svg>
+);
+export default SvgWorkS;
