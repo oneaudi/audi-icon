@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgRotateImageRightXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M6.8 3 4.55.7l.72-.7L8.7 3.5 5.27 7.14l-.72-.68L6.84 4H5.5A4.5 4.5 0 0 0 1 8.5V11H0V8.5A5.5 5.5 0 0 1 5.5 3zM4 8h9.5a2.5 2.5 0 0 1 2.5 2.5V16H6.5A2.5 2.5 0 0 1 4 13.5zm1 1v4.5c0 .82.68 1.5 1.5 1.5H15v-4.5c0-.82-.68-1.5-1.5-1.5z"
+    />
+  </svg>
+);
+export default SvgRotateImageRightXs;

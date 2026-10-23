@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgNfcInactiveXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m15.35 1.35-14 14-.7-.7 14-14zm-6.24 3.5A13 13 0 0 0 1 2V1a14 14 0 0 1 8.74 3.06zM6.28 7.7A9 9 0 0 0 1 6V5c2.2 0 4.22.7 5.87 1.9zM14 15c0-3.07-1.06-5.89-2.84-8.11l.78-.63A14 14 0 0 1 15 15zM3.44 10.63A5 5 0 0 0 1 10V9q1.6.02 2.93.76zM10 15c0-1.97-.63-3.8-1.71-5.28l.8-.59A10 10 0 0 1 11 15zm-4 0q-.02-1.35-.63-2.44l.87-.49Q6.98 13.39 7 15z"
+    />
+  </svg>
+);
+export default SvgNfcInactiveXs;

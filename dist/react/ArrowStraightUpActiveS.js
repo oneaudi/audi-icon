@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgArrowStraightUpActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m11.5.44 5.03 5.03-1.06 1.06-3.22-3.22V24h-1.5V3.31L7.53 6.53 6.47 5.47z"
+    />
+  </svg>
+);
+export default SvgArrowStraightUpActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgArrowLeftLightXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m3.5 7 3.43 3.66-.73.68L1.66 6.5 6.2 1.66l.73.68L3.5 6h8.72v10h-1V7z"
+    />
+  </svg>
+);
+export default SvgArrowLeftLightXs;

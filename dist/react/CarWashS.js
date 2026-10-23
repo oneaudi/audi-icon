@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCarWashS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8.5 3V2h1v1zm3 0V2h1v1zm3 0V2h1v1zm-7 3V5h1v1zm4 0V5h1v1zm4 0V5h1v1zm-9 3V8h1v1zm5 0V8h1v1zm5 0V8h1v1zm-8.78 1.68a52 52 0 0 1 8.56 0l.24.02.14.2.92 1.43q.4.64 1.03 1.8l1.39 1.7v5.1c0 .64-.52 1.15-1.15 1.15h-1.3c-.64 0-1.16-.51-1.16-1.15v-.15l-8.78-.03v.18c0 .64-.52 1.15-1.15 1.15h-1.3c-.64 0-1.16-.51-1.16-1.15v-5.1l1.39-1.7a36 36 0 0 1 1.95-3.23l.14-.2zm-1.68 4.23L5.14 16H8v1H5v3.93q.02.13.15.15h1.3q.15-.02.16-.15v-1.18l10.78.03v1.15q.02.13.15.15h1.3q.16-.02.16-.15V17h-3v-1h2.85l-.9-1.1zm11.3-1a26 26 0 0 0-1.38-2.25 51 51 0 0 0-7.92 0l-.77 1.2q-.26.4-.62 1.05zM14 18h-4v-1h4z"
+    />
+  </svg>
+);
+export default SvgCarWashS;

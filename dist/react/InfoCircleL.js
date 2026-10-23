@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgInfoCircleL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M1 23.5a22.5 22.5 0 1 1 45 0 22.5 22.5 0 0 1-45 0M23.5 2a21.5 21.5 0 1 0 0 43 21.5 21.5 0 0 0 0-43M23 18v-3h1v3zm1 2v12h-1V20z"
+    />
+  </svg>
+);
+export default SvgInfoCircleL;

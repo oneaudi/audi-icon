@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgLightsXenonXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m15.56 3.32-.46 5.8-.5-.05.5.06v.02l-.04.2-.15.46c-.13.31-.42.82-1 .95l-6.59 1.46-.15.03q-.15.03-.42.04a5 5 0 0 1-1.43-.25c-1.2-.4-2.83-1.4-4.7-3.73l-.48-.58zm-1.46 5.7.34-4.34-1.3.37A3 3 0 0 1 7.4 6.7L1.88 8.27c1.57 1.78 2.86 2.52 3.75 2.82a3 3 0 0 0 1.37.18l.05-.02h.02l6.63-1.47c.07-.02.18-.1.29-.35a2 2 0 0 0 .1-.4zm-1.93-3.69-3.8 1.08a2 2 0 0 0 3.8-1.08"
+    />
+  </svg>
+);
+export default SvgLightsXenonXs;

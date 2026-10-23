@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgOrderReverseS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M7 19.07V3h1v16.07l3.54-3.53.7.7L7.5 21l-4.74-4.75.7-.7zm9.5-16.06 4.74 4.75-.7.7L17 4.93V21h-1V4.93l-3.54 3.53-.7-.7z"
+    />
+  </svg>
+);
+export default SvgOrderReverseS;

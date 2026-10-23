@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgIndicatorsL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M35 10.28 48 23.5 35 36.72V28h-9v-9h9zm-22 0V19h9v9h-9v8.72L0 23.5zM1.41 23.5 12 34.28V27h9v-7h-9v-7.28zM36 12.72V20h-9v7h9v7.28L46.59 23.5z"
+    />
+  </svg>
+);
+export default SvgIndicatorsL;

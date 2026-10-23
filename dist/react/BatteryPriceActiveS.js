@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgBatteryPriceActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M6.5 1.5h6V3h-6zM4 19.5V4h11v9.72a5 5 0 0 0-1.51 1.75H12v5.1h1.47q.24.48.58.9a2.5 2.5 0 0 1-1.55.53h-6A2.5 2.5 0 0 1 4 19.5M9 10v2h1v-2h2V9h-2V7H9v2H7v1zm2.5 7h-4v1h4z"
+    />
+    <path
+      fill="currentColor"
+      d="M13 16.47h1.15c.6-1.76 2.23-2.77 4.25-2.77.91 0 1.87.13 2.6.44v1a7 7 0 0 0-2.43-.45c-1.64 0-2.8.62-3.27 1.78h4.2v.93h-4.4q-.05.3-.04.6 0 .34.03.63h4.42v.93h-4.18c.52 1.27 1.83 1.76 3.2 1.76 1.34 0 2.06-.2 2.53-.38v.97a7 7 0 0 1-2.55.4c-2.12 0-3.79-.93-4.37-2.75H13v-.93h.94a6 6 0 0 1 0-1.23H13z"
+    />
+  </svg>
+);
+export default SvgBatteryPriceActiveS;

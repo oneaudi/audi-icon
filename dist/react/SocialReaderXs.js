@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSocialReaderXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M0 0h16v16H0zm1 1v5h3.62V1zm4.62 0v10h4.76V1zm5.76 0v7H15V1zM15 9h-3.62v6H15zm-4.62 6v-3H5.62v3zm-5.76 0V7H1v8z"
+    />
+  </svg>
+);
+export default SvgSocialReaderXs;

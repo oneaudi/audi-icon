@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgContentActivitiesL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 9h34.5c1.98 0 3.5 1.52 3.5 3.5V39H11.5A3.45 3.45 0 0 1 8 35.5v-8.8l-6.2-6.2L8 14.3zm1 1v4.7l-5.8 5.8L9 26.3v9.2c0 1.42 1.08 2.5 2.5 2.5H45V12.5c0-1.42-1.08-2.5-2.5-2.5zm7 8h23v1H16zm0 10h23v1H16z"
+    />
+  </svg>
+);
+export default SvgContentActivitiesL;

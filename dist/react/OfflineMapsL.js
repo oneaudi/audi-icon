@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgOfflineMapsL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m6 5.72 12.5 5.73 12-5.5L43 11.68V40h-1V12.32L31 7.28V21h-1V7.28l-11 5.04v29.13L6 34.3zm12 6.6L7 7.28V33.7l11 6.05zM30 39.3V29h1v10.3l4.65-4.65.7.7-5.85 5.86-5.85-5.86.7-.7zm7 3.7v1H24v-1z"
+    />
+  </svg>
+);
+export default SvgOfflineMapsL;

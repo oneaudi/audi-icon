@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgUserWholeBodyActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9.42.42A1.5 1.5 0 0 1 10.5 0h2c.41 0 .8.14 1.08.42S14 1.1 14 1.5v2c0 .41-.14.8-.42 1.08A1.5 1.5 0 0 1 12.5 5h-2c-.41 0-.8-.14-1.08-.42A1.5 1.5 0 0 1 9 3.5v-2c0-.41.14-.8.42-1.08M15.1 15H17V7.4c0-.42-.21-.78-.48-1.02A1.6 1.6 0 0 0 15.5 6H7.4c-.42 0-.78.21-1.02.49Q6.02 6.9 6 7.5V15h1.9l-.4-5.46 1-.08L9.54 24h3.92L14.5 9.46l1 .08z"
+    />
+  </svg>
+);
+export default SvgUserWholeBodyActiveS;

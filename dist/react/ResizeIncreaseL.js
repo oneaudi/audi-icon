@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgResizeIncreaseL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M29 5h14v14h-1V6.7L26.85 21.86l-.71-.71L41.29 6H29zM6 41.3l15.15-15.15.7.7L6.72 42H19v1H5V29h1z"
+    />
+  </svg>
+);
+export default SvgResizeIncreaseL;

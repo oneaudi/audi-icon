@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgChargingPlateL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9 5h6v3h12V5h6v3h5v20H4V8h5zm1 3h4V6h-4zM5 9v18h32V9zm27-1V6h-4v2zm8 22V11h1v20H29v-1zM30 17v3h-1v-3h-3v-1h3v-3h1v3h3v1zm13 16V14h1v20H32v-1zM16 17H9v-1h7zm2 16a17 17 0 0 0-9.8 3.04l-.58-.82A18 18 0 0 1 18 32c3.59 0 6.92 1.01 9.66 2.74l-.53.85A17 17 0 0 0 18 33m0 4c-2.62 0-5.03.78-6.97 2.1l-.56-.82A13.4 13.4 0 0 1 18 36c2.5 0 4.83.66 6.79 1.8l-.5.87A12.4 12.4 0 0 0 18 37M4 42h29v3H4zm1 1v1h27v-1z"
+    />
+  </svg>
+);
+export default SvgChargingPlateL;

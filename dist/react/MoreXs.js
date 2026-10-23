@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMoreXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M2 7.73a1.23 1.23 0 1 1 2.47 0 1.23 1.23 0 0 1-2.47 0m1.23-.23a.23.23 0 1 0 0 .47.23.23 0 0 0 0-.47M7 7.73a1.23 1.23 0 1 1 2.47 0 1.23 1.23 0 0 1-2.47 0m1.23-.23a.23.23 0 1 0 0 .47.23.23 0 0 0 0-.47m3.77.23a1.23 1.23 0 1 1 2.47 0 1.23 1.23 0 0 1-2.47 0m1.23-.23a.23.23 0 1 0 0 .47.23.23 0 0 0 0-.47"
+    />
+  </svg>
+);
+export default SvgMoreXs;

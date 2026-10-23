@@ -1,0 +1,14 @@
+import * as React from "react";
+const SvgNotepadActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M14 2H3v21h17V8h-6z" />
+    <path fill="currentColor" d="M20 7v-.2L15.2 2H15v5z" />
+  </svg>
+);
+export default SvgNotepadActiveS;

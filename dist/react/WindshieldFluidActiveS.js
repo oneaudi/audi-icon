@@ -1,0 +1,18 @@
+import * as React from "react";
+const SvgWindshieldFluidActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M.74 11.12A22 22 0 0 1 12 8c4.12 0 7.97 1.14 11.26 3.12l.47.28-7.7 10.27-.4-.35a5.6 5.6 0 0 0-7.26 0l-.4.35L.27 11.4zM11.5 9v1h1V9zm0 3v1h1v-1zm0 4h1v-1h-1zm0 2v1h1v-1zM5.25 4.5V3h1.5v1.5zm3 0V3h1.5v1.5zm6 0V3h1.5v1.5zm3 0V3h1.5v1.5zm-6 2V5h1.5v1.5zm-8 .5V5.5h1.5V7zm16 0V5.5h1.5V7z"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgWindshieldFluidActiveS;

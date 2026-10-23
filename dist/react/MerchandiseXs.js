@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMerchandiseXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M13 15H3V6.69l-3 1v-4.5l3.89-1.88q.32-.13.63-.18Q5.42 1 6.33 1h3.33q.9 0 1.81.13.32.05.61.17L16 3.19V7.7l-3-1zm-9-1h8V5.31l3 1V3.82l-3.33-1.6-.34-.09-.55-.07a2.84 2.84 0 0 1-5.56 0l-.55.07q-.2.03-.37.1L1 3.82v2.49l3-1zM6.24 2c.22.77.93 1.33 1.76 1.33S9.54 2.76 9.76 2z"
+    />
+  </svg>
+);
+export default SvgMerchandiseXs;

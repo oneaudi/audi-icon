@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgBenefitsActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M11.99 2 6.77 8H1.28l5.5-6zM1.26 9h5.39l4.46 12.5zm11.63 12.5L17.35 9h5.4zM22.72 8h-5.5l-5.2-6h5.2zM12 21.01 7.71 9h8.58zm0-17.5L15.9 8H8.1z"
+    />
+  </svg>
+);
+export default SvgBenefitsActiveS;

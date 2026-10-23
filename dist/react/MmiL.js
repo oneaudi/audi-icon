@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMmiL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M10.5 13c-.83 0-1.5.67-1.5 1.5v.5h29.97v-.5c0-.83-.67-1.5-1.5-1.5zm28.47 3H9v13.73Q16.17 29 23.5 29q7.56 0 15.47.79zm1 13.88q2.57.27 5.17.62l-.13 1Q33.9 30 23.5 30T3 31.5l-.15-1q2.57-.37 5.15-.66v-1.98l-5.01.64-.13-1q3.28-.45 5.14-.66V14.5a2.5 2.5 0 0 1 2.5-2.5h26.97a2.5 2.5 0 0 1 2.5 2.5v12.38q1.84.2 5.17.62l-.13 1q-3.23-.42-5.04-.61zM26 27h-4v-1h4z"
+    />
+  </svg>
+);
+export default SvgMmiL;

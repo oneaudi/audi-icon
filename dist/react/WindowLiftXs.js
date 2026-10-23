@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgWindowLiftXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M5.31 3.36A3.4 3.4 0 0 1 8.01 2H16v11H0v-2.45zM8.01 3c-.75 0-1.45.35-1.9.96L1 10.88V12h1.62l2.7-3.64A3.4 3.4 0 0 1 8.01 7H15V3zm-4.14 9H15V8H8.01c-.75 0-1.45.35-1.9.96zm6.63-8.6 3.28 2.18-.56.84L10.5 4.6 7.78 6.42l-.56-.84zM7.22 9.42l.56-.84 2.72 1.82 2.72-1.82.56.84-3.28 2.18z"
+    />
+  </svg>
+);
+export default SvgWindowLiftXs;

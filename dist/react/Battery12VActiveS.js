@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgBattery12VActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9 5v2h6V5h4v2h3v12H2V7h3V5zm8 10v-2h2v-1h-2v-2h-1v2h-2v1h2v2zM5 13h4v-1H5z"
+    />
+  </svg>
+);
+export default SvgBattery12VActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCancelActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m12.17 13.23-4.64 4.64-1.06-1.06 4.64-4.64-4.64-4.64 1.06-1.06 4.64 4.64 4.64-4.64 1.06 1.06-4.64 4.64 4.64 4.64-1.06 1.06z"
+    />
+  </svg>
+);
+export default SvgCancelActiveS;

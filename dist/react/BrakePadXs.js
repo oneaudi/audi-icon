@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgBrakePadXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8m6-5a5 5 0 1 0 0 10A5 5 0 0 0 8 3M.5 5.2q.59-1.58 1.84-2.86l.71.71a7 7 0 0 0-1.6 2.5zm14.05.35a7 7 0 0 0-1.6-2.5l.7-.7a8 8 0 0 1 1.84 2.85zM.2 9.79a8 8 0 0 1 0-3.58l.98.22a7 7 0 0 0 0 3.14zm15.6 0-.98-.22q.35-1.56 0-3.14l.97-.22q.4 1.79 0 3.58M2.33 13.66A8 8 0 0 1 .5 10.8l.94-.35q.51 1.38 1.61 2.5zm10.6-.71a7 7 0 0 0 1.61-2.5l.94.35a8 8 0 0 1-1.84 2.86z"
+    />
+  </svg>
+);
+export default SvgBrakePadXs;

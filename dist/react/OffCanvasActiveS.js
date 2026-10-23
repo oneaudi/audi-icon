@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgOffCanvasActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M21 8.25H3v-1.5h18zm-18 2.5h18v1.5H3zm0 4h18v1.5H3z"
+    />
+  </svg>
+);
+export default SvgOffCanvasActiveS;

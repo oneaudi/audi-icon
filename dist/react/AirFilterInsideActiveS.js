@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgAirFilterInsideActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9.5 2H15v6.75h1.75V4.56L23.51 12l-6.76 7.44v-4.19H15V22H9.5A2.5 2.5 0 0 1 7 19.5v-15A2.5 2.5 0 0 1 9.5 2M15 9h-5v1h5zm0 1.25v3.5h3.25v1.81L21.49 12l-3.24-3.56v1.81zM15 14h-5v1h5zM1 6.25v-1.5h1.5v1.5zm3 2v-1.5h1.5v1.5zm-3 2v-1.5h1.5v1.5zm3 1v-1.5h1.5v1.5zm0 3v-1.5h1.5v1.5zm-3 1v-1.5h1.5v1.5zm3 2v-1.5h1.5v1.5zm-3 2v-1.5h1.5v1.5z"
+    />
+  </svg>
+);
+export default SvgAirFilterInsideActiveS;

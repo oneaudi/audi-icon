@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgFuelStationActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M4 3.5A2.5 2.5 0 0 1 6.5 1h6A2.5 2.5 0 0 1 15 3.5v6.25h.5a2.75 2.75 0 0 1 2.75 2.75v5a1.25 1.25 0 1 0 2.5 0V8.1q-.97-3.3-2.84-5.63l1.18-.94a18 18 0 0 1 3.13 6.26l.03.1v9.61a2.75 2.75 0 1 1-5.5 0v-5c0-.69-.56-1.25-1.25-1.25H15v10.5h1v1.5H3v-1.5h1zM6 10v1h7v-1z"
+    />
+  </svg>
+);
+export default SvgFuelStationActiveS;

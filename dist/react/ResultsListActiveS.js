@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgResultsListActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M15.5 7.9a4.5 4.5 0 0 1 4.5 4.5c0 .66-.3 1.53-.67 2.4-.38.88-.9 1.84-1.4 2.72a56 56 0 0 1-1.97 3.2l-.46.67-.46-.68-.59-.9c-.37-.59-.88-1.4-1.38-2.29a28 28 0 0 1-1.4-2.73 7 7 0 0 1-.67-2.38 4.4 4.4 0 0 1 4.18-4.5V7.9zM4 4.25H2v-1.5h2zm10 0H5v-1.5h9zm-10 3H2v-1.5h2zm10 0H5v-1.5h9zm-10 3H2v-1.5h2zm6 0H5v-1.5h5zm-6 3H2v-1.5h2zm4 0H5v-1.5h3z"
+    />
+  </svg>
+);
+export default SvgResultsListActiveS;

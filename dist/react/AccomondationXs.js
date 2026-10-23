@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgAccomondationXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M3.18 8.47h10.9l-.7-1.09a.1.1 0 0 0-.1-.06H3.17zm-1-3.84a.13.13 0 0 0-.13-.13H1.5v6.87q.01.12.13.13h.55v-1.21h11.55v1.08q.01.12.13.13h.64V9.47H2.18zm1 1.69h10.1c.38 0 .74.2.95.52l1.27 1.98v3.68h-1.64c-.63 0-1.13-.5-1.13-1.13v-.08H3.18v1.21H1.63C1.01 12.5.5 12 .5 11.37V3.5h1.55c.62 0 1.13.5 1.13 1.13z"
+    />
+  </svg>
+);
+export default SvgAccomondationXs;

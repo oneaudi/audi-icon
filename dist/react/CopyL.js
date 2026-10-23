@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCopyL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 0h23.7L43 11.3V44h-3v-1h2V11.7L31.3 1H9v2H8zM4 4h23.7L39 15.3V48H4zm1 1v42h33V16H27V5zm23 .7V15h9.3z"
+    />
+  </svg>
+);
+export default SvgCopyL;

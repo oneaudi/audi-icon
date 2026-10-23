@@ -1,0 +1,13 @@
+import * as React from "react";
+const SvgBookmarkActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M5 0h14v23.7l-7-7-7 7z" />
+  </svg>
+);
+export default SvgBookmarkActiveS;

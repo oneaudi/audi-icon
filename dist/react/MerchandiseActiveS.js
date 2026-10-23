@@ -1,0 +1,17 @@
+import * as React from "react";
+const SvgMerchandiseActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 2.06q-.59.05-1.18.13-.45.07-.85.24L.43 4.76l1.2 5.92L5 9.4V21h14V9.4l3.37 1.28 1.2-5.92-5.54-2.33a4 4 0 0 0-.85-.24q-.6-.08-1.18-.13v.47a4 4 0 0 1-8 0z"
+    />
+    <path fill="currentColor" d="M9 2h6v.53a3 3 0 0 1-6 0z" />
+  </svg>
+);
+export default SvgMerchandiseActiveS;

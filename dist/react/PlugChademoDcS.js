@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgPlugChademoDcS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m6 2.3 1.76 1.76a9 9 0 0 1 8.48 0L18 2.29 21.7 6l-1.76 1.76a9 9 0 1 1-15.89 0L2.3 6zm0 2.98.8-.78-.8-.8L3.7 6l.8.8.78-.8q.34-.38.73-.72m.01 1.41a8 8 0 1 0 .68-.68zm13.4.2L20.3 6 18 3.7l-.89.9q1.36.93 2.3 2.29M11 8a1 1 0 1 1 2 0 1 1 0 0 1-2 0m-4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0m8 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0m-4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0"
+    />
+  </svg>
+);
+export default SvgPlugChademoDcS;

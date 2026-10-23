@@ -1,0 +1,13 @@
+import * as React from "react";
+const SvgSkipPreviousActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M7.21 11.4 19 3.45v16.1zM4 19V4h1.5v15z" />
+  </svg>
+);
+export default SvgSkipPreviousActiveS;

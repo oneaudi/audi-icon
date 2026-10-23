@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMapLayerXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m7.54 13.82-5.97-3.78.53-.84 5.98 3.77q.08.06.18 0l5.97-3.77.54.84-5.98 3.78c-.38.24-.87.24-1.25 0m.54-3.85q.08.06.18 0l5.3-3.35-5.3-3.35a.2.2 0 0 0-.18 0L2.77 6.62zm-.54.85L.9 6.62l6.64-4.2c.38-.24.87-.24 1.25 0l6.65 4.2-6.65 4.2c-.38.24-.87.24-1.25 0"
+    />
+  </svg>
+);
+export default SvgMapLayerXs;

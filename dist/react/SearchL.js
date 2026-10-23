@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSearchL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M20 8a12 12 0 0 0 0 24c6.55 0 12-4.7 12-12A12 12 0 0 0 20 8M7 20a13 13 0 0 1 26 0 13 13 0 0 1-3.35 8.95l12.7 12.7-.7.7-12.7-12.7A13.2 13.2 0 0 1 20 33 13 13 0 0 1 7 20"
+    />
+  </svg>
+);
+export default SvgSearchL;

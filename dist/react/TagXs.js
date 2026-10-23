@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgTagXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M0 0h7.43l8.34 8.34-7.36 7.37L0 7.3zm1 1v5.88l7.4 7.41 5.96-5.95L7.02 1zm10.68 8.75-5.2-5.2.7-.71 5.2 5.2zM9.04 12.4l-5.2-5.2.7-.72 5.21 5.21z"
+    />
+  </svg>
+);
+export default SvgTagXs;

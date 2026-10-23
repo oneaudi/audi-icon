@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgBusinessCustomerS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8.5 3C7.68 3 7 3.68 7 4.5v3C7 8.32 7.68 9 8.5 9h3c.83 0 1.5-.68 1.5-1.5v-3c0-.82-.67-1.5-1.5-1.5zM6 4.5A2.5 2.5 0 0 1 8.5 2h3A2.5 2.5 0 0 1 14 4.5v3a2.5 2.5 0 0 1-2.5 2.5h-3A2.5 2.5 0 0 1 6 7.5zm-3 9.51v-.28q.02-.27.14-.65c.1-.25.25-.52.51-.73Q4.05 12 4.7 12H14v1H4.7q-.31.02-.42.12a1 1 0 0 0-.2.3 2 2 0 0 0-.08.54V20h10v1H3zM15 12h7v10h-3v-2h-1v2h-3zm1 1v8h1v-2h3v2h1v-8zm.95.95h1.1v1.1h-1.1zm2 0h1.1v1.1h-1.1zm-2 2h1.1v1.1h-1.1zm2 0h1.1v1.1h-1.1z"
+    />
+  </svg>
+);
+export default SvgBusinessCustomerS;

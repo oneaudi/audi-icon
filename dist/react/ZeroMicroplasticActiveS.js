@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgZeroMicroplasticActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m13.66 7.55-6.34 6.39-.66-.67-1.87-4.35 3.88-3.88 4.35 1.87zm-9.41.49L2.48 6.27l3.54-3.54L7.79 4.5zm17.28-4.51L4.03 21.15 2.97 20.1l17.5-17.63zm-4.06 9.6-1.7-1.7 1.06-1.07 1.7 1.7zm2.03.37V12H21v1.5zm-3.5 3V15h1.5v1.5zm5 .5v-1.5h1.5V17zm-9.76-.92 1.63 1.64-1.06 1.06-1.63-1.63zm5.26 3.42V18H18v1.5zm3 1V19H21v1.5zm-8 1.5v-1.5H13V22zm3.5.5V21h1.5v1.5z"
+    />
+  </svg>
+);
+export default SvgZeroMicroplasticActiveS;

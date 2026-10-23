@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgRoundaboutRightS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9.25 6.46a6.4 6.4 0 0 1 3.25-.96c3.2 0 5.94 2.4 6.35 5.5h3l-2.02-2.16.74-.68 3.11 3.34-3.11 3.34-.74-.68L21.85 12H18.9a6.3 6.3 0 0 1-5.9 6.09V23h-1v-4.93a6.3 6.3 0 0 1-5.7-6.26v-.26q0-.27.05-.7c.09-.59.27-1.37.7-2.19a6 6 0 0 1 2.2-2.2m-1.95 5.3v.04a5.3 5.3 0 0 0 10.6 0 5.4 5.4 0 0 0-5.4-5.3c-.94 0-1.9.32-2.73.82a5 5 0 0 0-1.83 1.82 5.6 5.6 0 0 0-.64 2.62"
+    />
+  </svg>
+);
+export default SvgRoundaboutRightS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgRawMaterialsL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M20.15 7.5h6.71l2.5 7.5h5.98l9.4 24H26.5V26h1v10.11L30 30.4V26h1v4h9.14l-5.48-14h-4.97l3 9H13.8l3.27-9h-4.72L6.86 30H16v-4h1v4.4l2.5 5.71V26h1v13H2.27l9.39-24h5.76zm-2.4 9.5-2.54 7h16.1l-2.34-7zm10.89-1-2.5-7.5h-5.29L18.12 16zm-9.4 22-3.07-7h-9.7l-2.74 7zm21.29-7h-9.7l-3.07 7h15.5z"
+    />
+  </svg>
+);
+export default SvgRawMaterialsL;

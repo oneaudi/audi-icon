@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSmileyUnhappyL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M23.9 2h.1c12.08 0 21.9 9.82 22 21.9 0 12.18-9.82 22-21.9 22.1A22.1 22.1 0 0 1 2 24.1C2 11.92 11.82 2.1 23.9 2m0 1A21.1 21.1 0 0 0 3 24.1 21.1 21.1 0 0 0 24.1 45 21.1 21.1 0 0 0 45 23.9 21.07 21.07 0 0 0 24 3zM17 17.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m17-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0M14.25 34.25a14.5 14.5 0 0 1 20.5 0l-.7.7a13.5 13.5 0 0 0-19.1 0z"
+    />
+  </svg>
+);
+export default SvgSmileyUnhappyL;

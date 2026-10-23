@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgEraseActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M10 4h.75v1H4.64l-2.1 3h17.92l-2.1-3h-6.11V4H13V2.5h-3zM5 9h13v10.5c0 .41-.2.78-.46 1.04a1.5 1.5 0 0 1-1.04.46h-10c-.9 0-1.5-.76-1.5-1.5z"
+    />
+  </svg>
+);
+export default SvgEraseActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgPublicTransportXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M3.5 2a.5.5 0 0 0-.5.5V3h10v-.5a.5.5 0 0 0-.5-.5zM2 2.5C2 1.67 2.67 1 3.5 1h9c.83 0 1.5.67 1.5 1.5V14h-1v.5c0 .83-.67 1.5-1.5 1.5h-1A1.5 1.5 0 0 1 9 14.5V14H7v.5c0 .83-.67 1.5-1.5 1.5h-1A1.5 1.5 0 0 1 3 14.5V14H2zM3 9v4h1v1.5c0 .28.22.5.5.5h1a.5.5 0 0 0 .5-.5V13h4v1.5c0 .28.22.5.5.5h1a.5.5 0 0 0 .5-.5V13h1V9zm10-1V4H3v4zM1 3v4H0V3zm15 0v4h-1V3zM5.5 10.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1M4 11a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0m6.5-.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1M9 11a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0"
+    />
+  </svg>
+);
+export default SvgPublicTransportXs;

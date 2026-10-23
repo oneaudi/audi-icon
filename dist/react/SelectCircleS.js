@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSelectCircleS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M0 11.5a11.5 11.5 0 1 1 23 0 11.5 11.5 0 0 1-23 0M11.5 1a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21m4.6 6.69-5.43 7.68-3.72-3.72.7-.7 2.88 2.88L15.3 7.1z"
+    />
+  </svg>
+);
+export default SvgSelectCircleS;

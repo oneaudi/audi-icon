@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgLightsFullBeamActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9 17.44 19.89 6.48c1.1.68 2.09 1.42 2.82 2.22A4.2 4.2 0 0 1 24 11.5c0 1.03-.53 1.97-1.29 2.8s-1.81 1.6-2.96 2.31a53 53 0 0 1-7.16 3.45c-.86.35-1.74.34-2.44-.03A2.2 2.2 0 0 1 9 18zm7.66-12.67L9 12.47V5.1c0-.92.44-1.65 1.15-2.03a3 3 0 0 1 2.43-.04c1.2.47 2.63 1.05 4.08 1.74m6.74-3.24L1.9 23.15.85 22.1 22.34.47zM7 8.25H0v-1.5h7zm0 4H0v-1.5h7zm-2 4H0v-1.5h5z"
+    />
+  </svg>
+);
+export default SvgLightsFullBeamActiveS;

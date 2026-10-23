@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSelectAllL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 7h3v1H8v3H7V8a.9.9 0 0 1 .53-.88A1 1 0 0 1 7.98 7zv.5zm11 1h-5V7h5zm8 0h-5V7h5zm8 0h-5V7h5zm5.99 0H38V7h3v.5V7h.02l.14.01q.13.03.31.1A.9.9 0 0 1 42 8v3h-1zM8 14v5H7v-5zm6 0h21v21H14zm1 1v19h19V15zm27-1v5h-1v-5zM8 22v5H7v-5zm34 0v5h-1v-5zM8 30v5H7v-5zm34 0v5h-1v-5zM8 41v-3H7v3q0 .31.16.57.16.22.37.31a1 1 0 0 0 .45.12h.01l.01-.5v.5h3v-1zm34-3v3a.9.9 0 0 1-.53.88 1 1 0 0 1-.45.12h-.01l-.01-.5v.5h-3v-1h3v-3zm-23 4h-5v-1h5zm8 0h-5v-1h5zm8 0h-5v-1h5z"
+    />
+  </svg>
+);
+export default SvgSelectAllL;

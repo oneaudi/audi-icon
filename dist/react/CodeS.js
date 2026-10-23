@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCodeS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M1 1h10v10H1zm1 1v8h8V2zm11-1h10v10H13zm1 1v8h8V2zM3 3h6v6H3zm1 1v4h4V4zm11-1h6v6h-6zm1 1v4h4V4zM1 13h10v10H1zm1 1v8h8v-8zm11-1h4v4h-4zm1 1v2h2v-2zm5-1h4v4h-4zm1 1v2h2v-2zM3 15h6v6H3zm1 1v4h4v-4zm9 3h4v4h-4zm1 1v2h2v-2zm5-1h4v4h-4zm1 1v2h2v-2z"
+    />
+  </svg>
+);
+export default SvgCodeS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCommuteS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M2 2h11v8.64l1.98-1.8 7.83 6.27-.62.78-1.19-.95V22h-9.5v-1H20v-6.86l-4.98-3.98L10 14.72v4.78c0 .34.17.72.48 1.02s.68.48 1.02.48v1a2.5 2.5 0 0 1-1.73-.77A2.5 2.5 0 0 1 9 19.5V15H6v4H2zm10 9.53V3H3v15h2v-4h4.3zM4 4h3v3H4zm1 1v1h1V5zm3-1h3v3H8zm1 1v1h1V5zM4 9h3v3H4zm1 1v1h1v-1zm3-1h3v3H8zm1 1v1h1v-1z"
+    />
+  </svg>
+);
+export default SvgCommuteS;

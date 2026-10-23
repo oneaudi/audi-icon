@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgLanguagesS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 5V3h1v2h5v1h-1.7a12.4 12.4 0 0 1-3.1 5.7q1.54 1.49 3.75 2.62l-.44.9a17 17 0 0 1-4.01-2.8q-1.65 1.59-4 2.8l-.45-.9a16 16 0 0 0 3.75-2.61 13 13 0 0 1-2.55-3.94l.92-.38a12 12 0 0 0 2.33 3.6A11.5 11.5 0 0 0 11.28 6H3V5zm7.55 7.01h1.4l4.26 8.79-.9.43-1.11-2.3h-5.9l-1.1 2.3-.9-.43zm-1.76 5.93h4.92L16.32 13h-.14z"
+    />
+  </svg>
+);
+export default SvgLanguagesS;

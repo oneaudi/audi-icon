@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgGroceriesXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M2.26 1.22 2.8 2h.17l.7-1h1.2l.7 1h.17l.7-1h1.2l.7 1h.17l.54-.78L9.2 1h1.22l.69 1h.15l.61-1H13v7h-1V2.7l-.04.06-.14.24h-1.24L9.9 2h-.17l-.69 1H7.82l-.7-1h-.17l-.69 1H5.05l-.7-1h-.17l-.54.78L3.5 3H2.28L2 2.6V14h3v1H1V1h1.1z"
+    />
+    <path
+      fill="currentColor"
+      d="M13 9.3a2 2 0 0 1 2 2v2.8a1 1 0 0 1-.9.9H6.9a1 1 0 0 1-.9-.9v-2.8c0-1.1.9-2 2-2zm-3.29 1q.18.32.25.68l.04.25-.5.08-.49.08-.04-.24a1 1 0 0 0-.99-.84 1 1 0 0 0-.98 1V14h7v-2.7a1 1 0 0 0-.78-.97q.17.3.23.65l.04.25-.49.08-.5.08-.03-.24a1 1 0 0 0-1-.84h-.01q.18.3.25.67l.04.25-.5.08-.49.08-.04-.24a1 1 0 0 0-1-.84"
+    />
+  </svg>
+);
+export default SvgGroceriesXs;

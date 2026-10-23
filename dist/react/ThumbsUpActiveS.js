@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgThumbsUpActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m14.47 1.76 1.38 1.38a2.5 2.5 0 0 1 .61 2.8L14.26 11h5.41a2 2 0 0 1 1.96 2.39L19.91 22H7v-8H6v8H2V11h4.77z"
+    />
+  </svg>
+);
+export default SvgThumbsUpActiveS;

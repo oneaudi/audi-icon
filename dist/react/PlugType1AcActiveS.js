@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgPlugType1AcActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M12 2a9 9 0 0 1 2 17.78V22h-4v-2.22A9 9 0 0 1 12 2M9 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2m6 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-7 6v-2H7v2zm9 0v-2h-1v2zm-5 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+    />
+  </svg>
+);
+export default SvgPlugType1AcActiveS;

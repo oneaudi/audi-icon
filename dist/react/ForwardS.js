@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgForwardS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M14.27 12 9.15 6.92l.7-.71L15.7 12l-5.84 5.8-.7-.72z"
+    />
+  </svg>
+);
+export default SvgForwardS;

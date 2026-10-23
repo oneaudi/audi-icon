@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgDownloadXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 0h1v10.3l3.65-3.65.7.7-4.85 4.86-4.85-4.86.7-.7L8 10.29zm7 15v1H2v-1z"
+    />
+  </svg>
+);
+export default SvgDownloadXs;

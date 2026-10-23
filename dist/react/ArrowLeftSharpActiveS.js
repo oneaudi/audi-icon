@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgArrowLeftSharpActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M18.25.02V24h-1.5V3.56l-7.4 7.19H14v1.5H6.75V5h1.5v4.73z"
+    />
+  </svg>
+);
+export default SvgArrowLeftSharpActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSelectL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M35.6 14.7 20.75 34.46l-8.6-8.6.7-.71 7.8 7.79L34.8 14.1z"
+    />
+  </svg>
+);
+export default SvgSelectL;

@@ -1,0 +1,13 @@
+import * as React from "react";
+const SvgLineL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M34 25H15v-1h19z" />
+  </svg>
+);
+export default SvgLineL;

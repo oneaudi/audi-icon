@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgChargeLevelS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M4 3h4v2h5V3h4v2h3v12H1V5h3zm1 2h2V4H5zM2 6v10h17V6zm14-1V4h-2v1zm-1 6v2h-1v-2h-2v-1h2V8h1v2h2v1zm6 7V8h1v11H3v-1zM8 11H4v-1h4zm15 9V10h1v11H5v-1z"
+    />
+  </svg>
+);
+export default SvgChargeLevelS;

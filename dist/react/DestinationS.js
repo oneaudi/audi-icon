@@ -1,0 +1,17 @@
+import * as React from "react";
+const SvgDestinationS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M2 1h1v22H2zm14 5v5h-6V6z" />
+    <path
+      fill="currentColor"
+      d="m13.7 1 1 1H22v14h-9.7l-1-1H4V1zM16 3h-1.7l-1-1H10v4H5v5h5v3h1.7l1 1H16v-4h5V6h-5z"
+    />
+  </svg>
+);
+export default SvgDestinationS;

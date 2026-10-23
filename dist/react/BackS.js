@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgBackS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m10.21 12 5.12-5.08-.7-.71L8.79 12l5.84 5.8.7-.72z"
+    />
+  </svg>
+);
+export default SvgBackS;

@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgPlugCcsDcActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 18.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m7 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0"
+    />
+    <path
+      fill="currentColor"
+      d="M7.74 2h8.51q.56 0 1 .38A7.82 7.82 0 0 1 15.83 15h1.68a2.5 2.5 0 0 1 2.5 2.5v2a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 19.5v-2A2.5 2.5 0 0 1 6.5 15h1.66A7.83 7.83 0 0 1 6.73 2.38a1.5 1.5 0 0 1 1-.38M9 5v2h1V5zm5 0v2h1V5zM8 8a1 1 0 1 0 0 2 1 1 0 0 0 0-2m4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-6 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2m4 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-5.5 6a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m7 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
+    />
+  </svg>
+);
+export default SvgPlugCcsDcActiveS;

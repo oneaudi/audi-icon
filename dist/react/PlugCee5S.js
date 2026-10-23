@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgPlugCee5S = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M3 12a9 9 0 1 1 18 0 9 9 0 0 1-18 0m9-8a8 8 0 1 0 0 16 8 8 0 0 0 0-16m-3 6V8h1v2zm6-2v2h-1V8zm-8 6v-2h1v2zm9 0v-2h1v2zm-5 2a1 1 0 1 1 2 0 1 1 0 0 1-2 0"
+    />
+  </svg>
+);
+export default SvgPlugCee5S;

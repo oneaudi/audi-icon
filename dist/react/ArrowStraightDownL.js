@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgArrowStraightDownL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M23 7v34.3l4.65-4.65.7.7-5.85 5.86-5.85-5.86.7-.7L22 41.29V7z"
+    />
+  </svg>
+);
+export default SvgArrowStraightDownL;

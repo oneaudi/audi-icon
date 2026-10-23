@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgHelpCircleXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 1 0 0 14A7 7 0 0 0 8 1M6.72 5.45 6.5 5l-.22-.45h.01l.03-.02.5-.2A6 6 0 0 1 8.04 4c.95-.13 2.25-.02 2.9 1.28.3.61.22 1.23 0 1.77a5 5 0 0 1-1.01 1.4 10 10 0 0 1-1.44 1.2v.85h-1V9.1l.24-.15.03-.02.45-.31c.29-.22.66-.52 1-.87.35-.35.65-.73.8-1.1q.24-.52.03-.93C9.7 5.02 9 4.88 8.2 5a5 5 0 0 0-1.45.45zm.78 7.05v-1h1v1z"
+    />
+  </svg>
+);
+export default SvgHelpCircleXs;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgExternalLinkXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M14.3 1H8V0h8v8h-1V1.7L7.85 8.86l-.7-.7zM0 3h6v1H1v11h11v-5h1v6H0z"
+    />
+  </svg>
+);
+export default SvgExternalLinkXs;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgVideoActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M22.5 4H0v14.5c0 .41.14.8.42 1.08S1.1 20 1.5 20H24V5.5c0-.41-.14-.8-.42-1.08A1.5 1.5 0 0 0 22.5 4M10 15.04v-7.1l5.21 3.47z"
+    />
+  </svg>
+);
+export default SvgVideoActiveS;

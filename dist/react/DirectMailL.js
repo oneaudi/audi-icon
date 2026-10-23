@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgDirectMailL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M2 8h41.5a2.5 2.5 0 0 1 2.5 2.5V40H4.5A2.5 2.5 0 0 1 2 37.5zm1 1v28.5c0 .82.68 1.5 1.5 1.5H45V10.5c0-.82-.68-1.5-1.5-1.5zm3.7 8.4.6-.8L24 29.37 40.7 16.6l.6.8L24 30.63z"
+    />
+  </svg>
+);
+export default SvgDirectMailL;

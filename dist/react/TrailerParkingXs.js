@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgTrailerParkingXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 12.25a.58.58 0 1 0-1.17 0 .58.58 0 0 0 1.17 0m3.83 0a.58.58 0 1 0-1.16 0 .58.58 0 0 0 1.16 0M14.5 3H3v7.83h1.8L6.12 9.5h6.41l1.33 1.33h.46q.16-.01.17-.16zM9 12.25a1.58 1.58 0 1 1-3.17 0 1.58 1.58 0 0 1 3.17 0m3.83 0a1.58 1.58 0 1 1-3.16 0 1.58 1.58 0 0 1 3.16 0m2.67-1.58c0 .64-.52 1.16-1.17 1.16h-.87l-1.33-1.33H6.54l-1.33 1.33H.67v-1H2V2h13.5z"
+    />
+  </svg>
+);
+export default SvgTrailerParkingXs;

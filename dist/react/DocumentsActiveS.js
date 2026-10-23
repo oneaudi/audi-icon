@@ -1,0 +1,17 @@
+import * as React from "react";
+const SvgDocumentsActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M3 2h11v6h6v15H3zm3 11h11v-1H6zm0 3h11v-1H6zm0 3h11v-1H6z"
+    />
+    <path fill="currentColor" d="M20 6.8V7h-5V2h.2z" />
+  </svg>
+);
+export default SvgDocumentsActiveS;

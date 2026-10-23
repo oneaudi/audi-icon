@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSyncOffActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m3.53 2.47 18 18-1.06 1.06-18-18zm15.3 2.3 2.73 2.73-2.73 2.73-1.06-1.06.92-.92H11v-1.5h7.69l-.92-.92zM.75 13.41a6.5 6.5 0 0 1 3.4-5.88l.7 1.32a5 5 0 0 0-2.6 4.53V14H.75zm22.5-1.82a6.5 6.5 0 0 1-2.26 5.1L20 15.54a5 5 0 0 0 1.74-3.93V11h1.5zM5.17 14.77l1.06 1.06-.92.92h8.19v1.5H5.31l.92.92-1.06 1.06-2.73-2.73z"
+    />
+  </svg>
+);
+export default SvgSyncOffActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgPhotoS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M0 2h24v20H0zm1 1v17.3l8.5-8.5 4.9 4.9 5-4.9 3.6 3.43V3zm22 13.61-3.6-3.41-5 4.9-4.9-4.9L1.7 21H23zM3 8.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0M5.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
+    />
+  </svg>
+);
+export default SvgPhotoS;

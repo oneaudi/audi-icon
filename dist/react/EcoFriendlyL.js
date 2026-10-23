@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgEcoFriendlyL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M44 2H25.5A18.5 18.5 0 0 0 7 20.5v15.01l-.27.25A8.5 8.5 0 0 0 4 42v4h1v-4c0-2.1.87-4.09 2.41-5.5l.54-.5H25.5A18.5 18.5 0 0 0 44 17.5zM8 34.59V20.5A17.5 17.5 0 0 1 25.5 3H43v14.5A17.5 17.5 0 0 1 25.5 35H9.03l24.52-22.63-.68-.74z"
+    />
+  </svg>
+);
+export default SvgEcoFriendlyL;

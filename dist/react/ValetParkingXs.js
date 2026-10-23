@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgValetParkingXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M7.5 1A2.5 2.5 0 0 0 5 3.5H4A3.5 3.5 0 0 1 7.5 0h2A3.5 3.5 0 0 1 13 3.5V5h-1V3.5A2.5 2.5 0 0 0 9.5 1zM1.03 5H15v11H1.03zm1 1v9H14V6zM5 7.5h4.17c.58 0 1.06.27 1.38.7.3.42.45.97.45 1.55q.01 1.04-.45 1.72c-.32.46-.81.7-1.38.7H6V14H5zm1 3.67h3.17q.38 0 .57-.28c.14-.2.26-.57.26-1.14q-.01-.64-.26-.95a.7.7 0 0 0-.57-.3H6z"
+    />
+  </svg>
+);
+export default SvgValetParkingXs;

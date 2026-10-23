@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgWindshieldL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M1.23 11.56A43 43 0 0 1 24.14 5a43 43 0 0 1 22.9 6.56l.47.28-16.58 22.1-.4-.38a10 10 0 0 0-3.04-1.91l-1.88 5.72a3.5 3.5 0 1 1-.95-.32l1.88-5.72a9.5 9.5 0 0 0-8.87 2.13l-.41.36L.77 11.84zM27.8 30.7q1.66.64 3 1.76l15.25-20.34A42 42 0 0 0 24.14 6c-8.01 0-15.5 2.22-21.91 6.12L17.4 32.36a10.5 10.5 0 0 1 9.44-1.98l6.6-20.04.94.32zM24.04 38a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5"
+    />
+  </svg>
+);
+export default SvgWindshieldL;

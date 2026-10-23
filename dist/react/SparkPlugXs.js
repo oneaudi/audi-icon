@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSparkPlugXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M7 1.06V0h1v1.06h.34c.25 0 .45.13.58.25q.2.2.32.44c.16.32.26.73.26 1.13V8H11v3h-1v1.84c0 .59-.44 1.07-1 1.15v.51c0 .83-.67 1.5-1.5 1.5H7v-1h.5a.5.5 0 0 0 .5-.5V14H6.16C5.52 14 5 13.48 5 12.84V11H4V8h1.5V2.88q.01-.62.26-1.13.11-.24.32-.44a1 1 0 0 1 .58-.25zM6.5 8h2V2.88q-.02-.4-.15-.68l-.09-.14H6.74l-.09.14a2 2 0 0 0-.15.68zM6 11v1.84q.01.15.16.16h2.68q.15-.01.16-.16V11zM5 9v1h5V9z"
+    />
+  </svg>
+);
+export default SvgSparkPlugXs;

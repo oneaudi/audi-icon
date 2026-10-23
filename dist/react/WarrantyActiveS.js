@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgWarrantyActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M12.25 1a7.25 7.25 0 1 0 0 14.5 7.25 7.25 0 0 0 0-14.5m-.8 10.14L8.9 8.65l.7-.71 1.75 1.7 3.5-4.45.8.62zm1.65 5.32a8.2 8.2 0 0 0 5.03-2.43L20.42 22l-3.24-1.3-2.05 2.82zm-6.73-2.42a8.2 8.2 0 0 0 5.03 2.42L9.38 23.5l-2.06-2.8L4.09 22z"
+    />
+  </svg>
+);
+export default SvgWarrantyActiveS;

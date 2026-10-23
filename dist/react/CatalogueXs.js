@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCatalogueXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M11 2.4a.5.5 0 0 0-.67-.47L1 4.87v9.72l10-2.96zM3.14 15H15V5h1v11H1.5A1.5 1.5 0 0 1 0 14.5V4.13L10.02.98A1.5 1.5 0 0 1 12 2.4v9.97zM14 3v11h-1V3z"
+    />
+  </svg>
+);
+export default SvgCatalogueXs;

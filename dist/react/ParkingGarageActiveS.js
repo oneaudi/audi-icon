@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgParkingGarageActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M12.5 9c.52 0 1.11.01 1.59.35.44.3.91 1 .91 2.65 0 1.66-.47 2.34-.91 2.65-.48.34-1.07.35-1.59.35H8V9z"
+    />
+    <path
+      fill="currentColor"
+      d="M0 5 11.5.5 23 5v15.5a2.5 2.5 0 0 1-2.5 2.5H0zm12.53 11c.5 0 1.38 0 2.13-.53.81-.56 1.34-1.63 1.34-3.47s-.53-2.9-1.34-3.47A3.6 3.6 0 0 0 12.53 8H7v11h1v-3z"
+    />
+  </svg>
+);
+export default SvgParkingGarageActiveS;

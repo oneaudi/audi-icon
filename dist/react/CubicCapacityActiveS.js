@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCubicCapacityActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8.5 1A2.5 2.5 0 0 0 6 3.5V5h12V3.5A2.5 2.5 0 0 0 15.5 1zM18 6H6v7h4.34l-1.86 4.04L8 17c-1.56 0-3 1.31-3 3 0 1.68 1.32 3 3 3s3-1.32 3-3c0-.97-.44-1.82-1.14-2.37L12 13h6z"
+    />
+  </svg>
+);
+export default SvgCubicCapacityActiveS;

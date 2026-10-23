@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgRemoveCircleActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M11.5 0a11.5 11.5 0 1 0 0 23 11.5 11.5 0 0 0 0-23M16 11.9H7v-1h9z"
+    />
+  </svg>
+);
+export default SvgRemoveCircleActiveS;

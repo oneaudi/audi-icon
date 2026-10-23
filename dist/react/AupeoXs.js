@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgAupeoXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M.5 8a7.5 7.5 0 1 1 15 0 7.5 7.5 0 0 1-15 0M6 4.12 12.47 8 6 11.88zm1 1.76v4.24L10.53 8z"
+    />
+  </svg>
+);
+export default SvgAupeoXs;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgUploadL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M25 17.7V39h-1V17.7l-8.15 8.15-.7-.7 9.35-9.36 9.35 9.36-.7.7zM11 10V9h27v1z"
+    />
+  </svg>
+);
+export default SvgUploadL;

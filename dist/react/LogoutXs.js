@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgLogoutXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M0 2.5A2.5 2.5 0 0 1 2.5 0H11v1H2.5C1.67 1 1 1.67 1 2.5v11c0 .83.67 1.5 1.5 1.5H11v1H2.5A2.5 2.5 0 0 1 0 13.5zm10.86.15 4.85 4.9-4.86 4.8-.7-.7 3.64-3.61H5v-1h8.8l-3.66-3.69z"
+    />
+  </svg>
+);
+export default SvgLogoutXs;

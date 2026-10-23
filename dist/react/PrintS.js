@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgPrintS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M4 1h10.7L20 6.3V14h2.5c.74 0 1.5.6 1.5 1.5V24H0v-8.5c0-.41.2-.78.46-1.04A1.5 1.5 0 0 1 1.5 14H4zm0 14H1.5a.5.5 0 0 0-.33.17.5.5 0 0 0-.17.33V23h22v-7.5a.5.5 0 0 0-.5-.5H20v4H4zM5 2v16h14V7h-5V2zm10 .7V6h3.3zm1 8.3H8v-1h8zm0 4H8v-1h8z"
+    />
+  </svg>
+);
+export default SvgPrintS;

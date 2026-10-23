@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgBicycleActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M13 4.75h2.97l2.37 5.88q.37-.06.75-.06a4.9 4.9 0 1 1-2.18.5l-.34-.82h-.7l-4.5 6H9.75a4.9 4.9 0 1 1-2.6-5.14l1.01-1.26-.93-2.6H6v-1.5h4v1.5H8.82l.54 1.5h6.6l-1-2.5H13zM8.76 11.5l-2.6 3.25h3.77zm2.47 2.44L14 10.25H9.9zM6.2 12.32a3.4 3.4 0 0 0-4.69 3.16 3.4 3.4 0 0 0 6.72.77H4.25v-1.51zm11.28.16a3.4 3.4 0 1 0 1.46-.4l1.27 3.14-1.4.56z"
+    />
+  </svg>
+);
+export default SvgBicycleActiveS;

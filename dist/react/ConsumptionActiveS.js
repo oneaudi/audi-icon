@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgConsumptionActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M19 15.4a7.4 7.4 0 0 1-7.07 7.6h-.44A7.6 7.6 0 0 1 4 15.4c0-1.09.48-2.53 1.14-4.02a48 48 0 0 1 2.43-4.65 91 91 0 0 1 3.22-5.07q.35-.53.71-1.03l.72 1.03a92 92 0 0 1 3.21 5.11 49 49 0 0 1 2.43 4.65c.66 1.48 1.14 2.9 1.14 3.97"
+    />
+  </svg>
+);
+export default SvgConsumptionActiveS;

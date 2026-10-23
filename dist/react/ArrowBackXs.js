@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgArrowBackXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m5.65 3.65.7.7L2.71 8H16v1H2.7l3.65 3.65-.7.7L.79 8.5z"
+    />
+  </svg>
+);
+export default SvgArrowBackXs;

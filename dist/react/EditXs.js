@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgEditXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M7.6 2.1a1.5 1.5 0 0 1 2-.73l1.79.85a1.5 1.5 0 0 1 .72 1.99l-3.6 7.68L4 15.65V9.77zm1.57.18a.5.5 0 0 0-.67.24L5.16 9.64l2.7 1.27L11.2 3.8a.5.5 0 0 0-.24-.67zm-2 9.42L5 10.67v2.84z"
+    />
+  </svg>
+);
+export default SvgEditXs;

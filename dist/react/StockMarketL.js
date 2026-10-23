@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgStockMarketL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M34.99 11H46v11.01h-1v-9.3L28.3 29.4l-9.56-9.56-15.89 15.9-.7-.71 16.6-16.6 9.55 9.55L44.3 12h-9.31z"
+    />
+  </svg>
+);
+export default SvgStockMarketL;

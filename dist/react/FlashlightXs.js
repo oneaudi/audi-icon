@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgFlashlightXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M3 0h10v4.13l-2 3.5V14c0 .58-.14 1.1-.52 1.48S9.58 16 9 16H7a2 2 0 0 1-1.47-.52Q4.98 14.89 5 14V7.63l-2-3.5zm3.01 8v6q.02.61.23.77c.12.13.34.23.76.23h2q.61-.02.77-.23c.12-.12.23-.35.23-.77V8zm4.2-1 1.71-3H4.08L5.8 7zM12 3V1H4v2zm-4.5 9v-2h1v2z"
+    />
+  </svg>
+);
+export default SvgFlashlightXs;

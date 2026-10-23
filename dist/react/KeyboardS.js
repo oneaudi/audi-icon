@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgKeyboardS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M0 5h22.5c.41 0 .8.14 1.08.42S24 6.1 24 6.5V19H1.5c-.41 0-.8-.14-1.08-.42A1.5 1.5 0 0 1 0 17.5zm1 1v11.5q.01.28.13.37.1.12.37.13H23V6.5q-.01-.27-.13-.37-.1-.12-.37-.13zm4 3H3V8h2zm4 0H7V8h2zm4 0h-2V8h2zm4 0h-2V8h2zm4 0h-2V8h2zM5 12H3v-1h2zm4 0H7v-1h2zm4 0h-2v-1h2zm4 0h-2v-1h2zm4 0h-2v-1h2zm-4 4H7v-1h10z"
+    />
+  </svg>
+);
+export default SvgKeyboardS;

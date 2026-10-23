@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgArrowRightNormalS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m17.3 11-3.65-3.65.7-.7 4.86 4.85-4.86 4.85-.7-.7L17.29 12H7v12H6V11z"
+    />
+  </svg>
+);
+export default SvgArrowRightNormalS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgAudioVolumeActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m5.03 21.15 17.5-17.62-1.06-1.06L3.97 20.1zm12.99-2.91c2.04-1.98 2.95-3.95 3.16-5.79.2-1.82-.3-3.43-.94-4.67l-1.33.69c.55 1.06.94 2.37.78 3.81s-.88 3.1-2.71 4.88zm-2.48-2.72a6 6 0 0 0 1.62-4.43l-1.5.1a4.4 4.4 0 0 1-1.2 3.3zM13 9.58V4.62l-4 2.9v6.09zm-2.21 7.2 2.21 1.6v-3.83zM8 8v6.62l-.38.38H4V8z"
+    />
+  </svg>
+);
+export default SvgAudioVolumeActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgRestaurantS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M5 1v8.5a2.5 2.5 0 0 0 5 0V1h1v8.5a3.5 3.5 0 0 1-3 3.46V23H7V12.96A3.5 3.5 0 0 1 4 9.5V1zm3 0v9H7V1zm6 4.5A4.5 4.5 0 0 1 18.5 1h.5v22h-1V13h-4zm1 6.5h3V2.04c-1.7.24-3 1.7-3 3.46z"
+    />
+  </svg>
+);
+export default SvgRestaurantS;

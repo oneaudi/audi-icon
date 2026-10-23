@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgDogParkActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8.47 11.24a3.82 3.82 0 0 1 7.06 0 16 16 0 0 0 3.44 5.15 3.73 3.73 0 0 1-3.07 6.36l-1.8-.21q-2.1-.26-4.2 0l-1.8.2a3.73 3.73 0 0 1-3.07-6.35 16 16 0 0 0 3.44-5.15M4.13 6.56a2.81 2.81 0 1 1 0 5.63 2.81 2.81 0 0 1 0-5.63m15.75 0a2.81 2.81 0 1 1 0 5.63 2.81 2.81 0 0 1 0-5.63M8.63 1.5a2.81 2.81 0 1 1 0 5.63 2.81 2.81 0 0 1 0-5.63m6.75 0a2.81 2.81 0 1 1 0 5.63 2.81 2.81 0 0 1 0-5.63"
+    />
+  </svg>
+);
+export default SvgDogParkActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgParkingOutLeftS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M7 0h5v1H8.81q.77.7 1.55 1.76A8 8 0 0 1 12 7.4V17h-1V7.4c0-1.56-.64-2.93-1.46-4.06Q8.77 2.3 8 1.61V5H7zM0 6h5v15.4c0 .8.76 1.6 1.7 1.6h9.6c.95 0 1.7-.7 1.7-1.6V6h5v1h-4v14.4c0 1.5-1.25 2.6-2.7 2.6H6.7A2.7 2.7 0 0 1 4 21.4V7H0z"
+    />
+  </svg>
+);
+export default SvgParkingOutLeftS;

@@ -1,0 +1,18 @@
+import * as React from "react";
+const SvgLockL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M14 13.5C14 8.8 17.8 5 22.5 5h3c4.7 0 8.5 3.8 8.5 8.5V20h4v24H10V20h4zm1 6.5h18v-6.5A7.5 7.5 0 0 0 25.5 6h-3a7.5 7.5 0 0 0-7.5 7.5zm-4 1v22h26V21zm12.3 5.09a3 3 0 0 0-2.21 2.22 3.1 3.1 0 0 0 1.63 3.44l.28.14V37h2v-5.08l.24-.15c.91-.54 1.76-1.6 1.76-2.77a3 3 0 0 0-3.7-2.91m-.2-.98A4 4 0 0 1 28 29a4.4 4.4 0 0 1-2 3.47V38h-4v-5.5a4.1 4.1 0 0 1-1.89-4.41 4 4 0 0 1 2.98-2.98"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgLockL;

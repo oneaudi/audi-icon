@@ -1,0 +1,13 @@
+import * as React from "react";
+const SvgFirstAidActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z" />
+  </svg>
+);
+export default SvgFirstAidActiveS;

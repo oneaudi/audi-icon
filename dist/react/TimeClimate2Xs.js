@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgTimeClimate2Xs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M7.5 1C3.9 1 1 3.9 1 7.5S3.9 14 7.5 14v1A7.5 7.5 0 0 1 0 7.5C0 3.34 3.34 0 7.5 0S15 3.34 15 7.5h-1C14 3.9 11.1 1 7.5 1M8 3v4h2v1H7V3z"
+    />
+    <path
+      fill="currentColor"
+      d="M10 15v-.73l1.17-.96.8-.7a4 4 0 0 0 .46-.59q.08-.14.11-.27a1 1 0 0 0-.02-.6 1 1 0 0 0-.18-.26 1 1 0 0 0-.31-.17 2 2 0 0 0-.46-.06 3 3 0 0 0-.79.1 4 4 0 0 0-.65.24v-.82a3 3 0 0 1 .62-.25 3.4 3.4 0 0 1 2.05.11 1.5 1.5 0 0 1 .63.58q.1.17.15.38a2 2 0 0 1-.03.91q-.05.23-.2.45-.1.21-.29.41a5 5 0 0 1-.8.76l-.44.35-.4.3h2.47V15z"
+    />
+  </svg>
+);
+export default SvgTimeClimate2Xs;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMoreActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M2.65 11.5a1.85 1.85 0 1 1 3.7 0 1.85 1.85 0 0 1-3.7 0m7 0a1.85 1.85 0 1 1 3.7 0 1.85 1.85 0 0 1-3.7 0m7 0a1.85 1.85 0 1 1 3.7 0 1.85 1.85 0 0 1-3.7 0"
+    />
+  </svg>
+);
+export default SvgMoreActiveS;

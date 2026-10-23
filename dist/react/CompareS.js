@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCompareS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M17.26 8.5q2.54.02 2.56 1.67c0 .7-.36 1.07-.97 1.27.8.2 1.27.63 1.27 1.39q-.02 1.65-2.56 1.67H15v-6zM8 8.5l3 6h-.96l-.74-1.48H5.67l-.73 1.48H4l3-6zm9.39 3.33h-1.53v1.98h1.53c1.22 0 1.86-.21 1.86-.98s-.64-1-1.86-1M7.48 9.3l-1.5 3.03h3zm9.6-.1h-1.23v1.98h1.23c1.22 0 1.86-.23 1.86-1s-.64-.98-1.86-.98M12 19V4h1v15z"
+    />
+  </svg>
+);
+export default SvgCompareS;

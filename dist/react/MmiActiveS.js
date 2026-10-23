@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMmiActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M4 13.8V10h16v6.94a42 42 0 0 0-8.5-.94c-3 0-5.6.4-7.5.83zm-1 .17c-1.1.23-2 .53-2 .53v3.2q.64-.25 2-.62zm18 3.2q1.3.32 2 .53v-3.2s-1-.28-2-.5zM20 9c0-1.6-1.33-2-2-2H6C4.4 7 4 8.33 4 9z"
+    />
+  </svg>
+);
+export default SvgMmiActiveS;

@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSkipNextL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9 8.25 31.99 24 9 39.65zM39 39.5h-1v-31h1zM10 10.15v27.6L30.21 24z"
+    />
+  </svg>
+);
+export default SvgSkipNextL;

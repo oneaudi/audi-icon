@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgMyaudiDestinationsActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M6 4a2.5 2.5 0 0 1 2.5-2.5h3A2.5 2.5 0 0 1 14 4v3a2.5 2.5 0 0 1-2.5 2.5h-3A2.5 2.5 0 0 1 6 7zm-1.54 7.5h7.42q-.37.94-.38 2c0 .9.37 1.92.75 2.78.41.93.94 1.91 1.45 2.8l.86 1.42H3v-7.4q0-.65.4-1.08.42-.42 1.02-.51z"
+    />
+    <path
+      fill="currentColor"
+      d="m16.54 21.72-.58-.89c-.38-.58-.89-1.38-1.4-2.25s-1-1.82-1.4-2.7a7 7 0 0 1-.66-2.38c0-2.48 2.03-4.5 4.5-4.5s4.5 2.02 4.5 4.5c0 .66-.29 1.52-.67 2.38-.38.88-.9 1.83-1.4 2.7a54 54 0 0 1-1.97 3.14l-.03.05-.02.01-.4.6-.43-.61z"
+    />
+  </svg>
+);
+export default SvgMyaudiDestinationsActiveS;

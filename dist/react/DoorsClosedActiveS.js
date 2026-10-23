@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgDoorsClosedActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9.48 2.21a4 4 0 0 1 1.3-.21h2.05q.57 0 1.13.16l2.03.58c.6.17 1.01.72 1.01 1.34V20.7a2.3 2.3 0 0 1-2.3 2.3H9.3A2.3 2.3 0 0 1 7 20.7V4.05c0-.6.38-1.13.95-1.32zM9 10h6V9H9zm0 9h6v-1H9z"
+    />
+  </svg>
+);
+export default SvgDoorsClosedActiveS;

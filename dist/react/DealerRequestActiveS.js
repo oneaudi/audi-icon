@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgDealerRequestActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M10 0H0v15h4V9h6zM4 16H0v4.5c0 .41.14.8.42 1.08S1.1 22 1.5 22H4z"
+    />
+    <path
+      fill="currentColor"
+      d="M21.5 10H5v11.5A2.5 2.5 0 0 0 7.5 24H24V12.5a2.5 2.5 0 0 0-2.5-2.5M8.8 14.5l5.7 4.37 5.7-4.37.6.8-6.3 4.83-6.3-4.83z"
+    />
+  </svg>
+);
+export default SvgDealerRequestActiveS;

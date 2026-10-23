@@ -1,0 +1,17 @@
+import * as React from "react";
+const SvgEditorialActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M6 9V7h4v2z" />
+    <path
+      fill="currentColor"
+      d="M20.5 0H2v22.5c0 .9.76 1.5 1.5 1.5H22V1.5c0-.9-.76-1.5-1.5-1.5M11 6v4H5V6zm2 1V6h6v1zm0 3V9h6v1zm-8 3v-1h14v1zm0 3v-1h14v1z"
+    />
+  </svg>
+);
+export default SvgEditorialActiveS;

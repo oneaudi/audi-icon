@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgLightsLedActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M22.4 13.66v.03l-.06.27q-.05.26-.2.66c-.2.45-.58 1.11-1.34 1.27l-9.86 2.2-.22.05q-.23.07-.64.12c-.55.05-1.33.05-2.28-.17-1.92-.46-4.48-1.8-7.29-5.28l-.46-.56 10.9-3.55.23.5.17.32q.17.3.6.67c.6.48 1.55.91 3.05.91q1.29 0 1.94-.66c.43-.42.58-.97.62-1.45a4 4 0 0 0-.29-1.86l-.15-.44 6.48-2.11zM19 10h1V9h-1zm0 2h1v-1h-1zm-2 1h1v-1h-1zM7 14h1v-1H7zm2 0h1v-1H9zm2 0h1v-1h-1zm2 0h1v-1h-1zm2 0h1v-1h-1z"
+    />
+    <path
+      fill="currentColor"
+      d="M11.91 8.39 16.17 7l.16.47v.01l.01.03.13.42c.06.28.12.64.1.98q-.04.52-.33.82c-.2.19-.55.37-1.24.37-1.3 0-2.02-.37-2.41-.69a2 2 0 0 1-.48-.58V8.8z"
+    />
+  </svg>
+);
+export default SvgLightsLedActiveS;

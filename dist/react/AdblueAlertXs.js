@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgAdblueAlertXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8.5.92 15.82 15H1.18zm0 2.16L2.82 14h11.36zM8 10h1V6H8zm0 2.5h1V11H8z"
+    />
+  </svg>
+);
+export default SvgAdblueAlertXs;

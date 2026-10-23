@@ -1,0 +1,17 @@
+import * as React from "react";
+const SvgShareActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M15.53 5.47 11.5 1.44 7.47 5.47l1.06 1.06 2.22-2.22V15h1.5V4.31l2.22 2.22z"
+    />
+    <path fill="currentColor" d="M9.5 8H5v13h13V8h-4.52l.02 8h-4z" />
+  </svg>
+);
+export default SvgShareActiveS;

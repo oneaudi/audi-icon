@@ -1,0 +1,13 @@
+import * as React from "react";
+const SvgGrabS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M3 9h18v1H3zm18 5H3v-1h18z" />
+  </svg>
+);
+export default SvgGrabS;

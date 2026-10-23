@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgTimeMiddleActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M20.75 11A8.7 8.7 0 0 0 12 2.25V.75C17.71.75 22.25 5.29 22.25 11a10.4 10.4 0 0 1-8.88 10.3l1.16 1.17-1.06 1.06-3.03-3.03 3.03-3.03 1.06 1.06-1.28 1.28q.37-.05.64-.13h.02l.02-.01A8.9 8.9 0 0 0 20.75 11M7.25 2v1h-1.5V2zM2 5.75h1v1.5H2zm14.53 1.78-5 5-1.06-1.06 5-5zM2 12.25H1v-1.5h1zm1 5H2v-1.5h1zM7.25 19v1h-1.5v-1z"
+    />
+  </svg>
+);
+export default SvgTimeMiddleActiveS;

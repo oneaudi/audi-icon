@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgShareAndroidActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M18 3a3 3 0 0 0-2.95 3.54L7.32 10.1a3 3 0 1 0 0 3.8l7.73 3.56A3 3 0 0 0 18 21a3 3 0 1 0-2.32-4.9l-7.73-3.56a3 3 0 0 0 0-1.08l7.73-3.56A3 3 0 1 0 18 3"
+    />
+  </svg>
+);
+export default SvgShareAndroidActiveS;

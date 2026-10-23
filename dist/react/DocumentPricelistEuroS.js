@@ -1,0 +1,20 @@
+import * as React from "react";
+const SvgDocumentPricelistEuroS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M6.4 13.74v-.89h1.1c.58-1.68 2.14-2.65 4.08-2.65.86 0 1.78.12 2.47.42v.96a6 6 0 0 0-2.32-.43c-1.56 0-2.67.59-3.12 1.7h4.02v.9H8.41q-.05.27-.04.56 0 .32.04.6h4.22v.9h-4c.5 1.21 1.76 1.68 3.07 1.68a7 7 0 0 0 2.42-.36v.92a6 6 0 0 1-2.45.38c-2.02 0-3.61-.88-4.18-2.62H6.41v-.9h.9a5 5 0 0 1 0-1.17z"
+    />
+    <path
+      fill="currentColor"
+      d="M3 2h12.2L20 6.8V23H3zm1 1v19h15V8h-5V3zm11 .2V7h3.8z"
+    />
+  </svg>
+);
+export default SvgDocumentPricelistEuroS;

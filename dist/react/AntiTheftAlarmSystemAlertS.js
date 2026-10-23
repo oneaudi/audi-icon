@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgAntiTheftAlarmSystemAlertS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M11 6V0h1v6zM17.5.01 24 13H11zM12.61 12h9.76L17.5 2.25zM3.25 2.85l4 4-.7.7-4-4zM17 8V5h1v3zM8.67 9 6.6 20h10.31l-.9-5.42.98-.16.93 5.58H19c.31 0 .58.15.77.33.18.19.33.46.33.77v1.8c0 .31-.15.58-.33.77A1 1 0 0 1 19 24H5.1a1 1 0 0 1-.77-.33A1 1 0 0 1 4 22.9v-1.8c0-.31.15-.58.33-.77.19-.18.46-.33.77-.33h.49L7.7 8.74q.01-.22.16-.42a1 1 0 0 1 .37-.26A2 2 0 0 1 8.8 8H11v1zM17 11V9h1v2zM5 13H0v-1h5zm0 8.1v1.8l.04.06.06.04H19l.06-.04.04-.06v-1.8l-.04-.06L19 21H5.1l-.06.04z"
+    />
+  </svg>
+);
+export default SvgAntiTheftAlarmSystemAlertS;

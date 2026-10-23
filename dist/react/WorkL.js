@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgWorkL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M10 2h28.03v44H27V35h-6v11H10zm1 1v42h9V34h8v11h9.03V3zm4 4h7v7h-7zm1 1v5h5V8zm10-1h7v7h-7zm1 1v5h5V8zM15 20h7v7h-7zm1 1v5h5v-5zm10-1h7v7h-7zm1 1v5h5v-5z"
+    />
+  </svg>
+);
+export default SvgWorkL;

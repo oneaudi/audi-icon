@@ -1,0 +1,18 @@
+import * as React from "react";
+const SvgArrowUpXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="m14.35 10.65-.7.7L8.5 6.21l-5.15 5.14-.7-.7L8.5 4.79z"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgArrowUpXs;

@@ -1,0 +1,18 @@
+import * as React from "react";
+const SvgBrakeFluidXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8m6-5a5 5 0 0 0-4.6 6.94q.35-.07.77-.36c.4-.31.83-.9.83-2.08h1c0 1.33.54 1.9 1 2.18a2 2 0 0 0 1.07.29l.23-.03q.31-.05.7-.26c.46-.27 1-.85 1-2.18h1c0 .95.34 1.5.72 1.84.29.24.63.4.93.5A5 5 0 0 0 8 3m4.19 7.73a4 4 0 0 1-1.12-.64q-.3-.26-.53-.6-.44.71-1.04 1.05a3 3 0 0 1-1.64.42 3 3 0 0 1-1.36-.42 3 3 0 0 1-1-.98 3 3 0 0 1-1.62 1.28 5 5 0 0 0 8.3-.1M3.05 3.05a7 7 0 0 0 0 9.9l-.7.7a8 8 0 0 1 0-11.3zm10.6 10.6-.7-.7a7 7 0 0 0 0-9.9l.7-.7a8 8 0 0 1 0 11.3"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgBrakeFluidXs;

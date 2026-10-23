@@ -1,0 +1,13 @@
+import * as React from "react";
+const SvgFuelRangeXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path fill="currentColor" d="M0 12V5h1v3h14V5h1v7h-1V9H1v3z" />
+  </svg>
+);
+export default SvgFuelRangeXs;

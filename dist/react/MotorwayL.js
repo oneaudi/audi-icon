@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMotorwayL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M21.18 3h6.64l4.5 10H46v9h-3v5h-1v-6h3v-7H4v7h3v6H6v-5H3v-9h13.68zm-3.4 10h13.45l-4.05-9H25v2h-1V4h-2.18zM24 12V8h1v4zM8 21h33v6h-1v-5h-3.75l10 24H2.75l10-24H9v5H8zm5.83 1L4.25 45H24V34h1v11h19.75l-9.58-23zM25 30h-1v-6h1z"
+    />
+  </svg>
+);
+export default SvgMotorwayL;

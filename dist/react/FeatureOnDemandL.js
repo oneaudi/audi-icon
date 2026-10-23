@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgFeatureOnDemandL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M23 2h23v23H23zm1 1v21h21V3zM2 8h17v17H2zm1 1v15h15V9zm31 4V8h1v5h5v1h-5v5h-1v-5h-5v-1zM2 29h17v17H2zm1 1v15h15V30zm20-1h17v17H23zm1 1v15h15V30z"
+    />
+  </svg>
+);
+export default SvgFeatureOnDemandL;

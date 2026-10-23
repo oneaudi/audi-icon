@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgTimeShortXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M14 7.5C14 3.9 11.1 1 7.5 1V0C11.66 0 15 3.34 15 7.5zM5 1v1H4V1zM2 3v1H1V3zm8.85 1.85-3.5 3.5-.7-.7 3.5-3.5zM1 7v1H0V7zm1 4v1H1v-1zm12 0v1h-1v-1zm-9 2v1H4v-1zm6 0v1h-1v-1zm-3 1v1H7v-1z"
+    />
+  </svg>
+);
+export default SvgTimeShortXs;

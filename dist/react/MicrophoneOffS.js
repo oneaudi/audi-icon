@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMicrophoneOffS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 4a4 4 0 0 1 8 0v2h-1V4a3 3 0 0 0-6 0v9H8zm15.23-2.65L1.73 22.98l-.7-.7L22.51.64zM6 11v1.86q0 1.32.52 2.44l-.92.4a7 7 0 0 1-.6-2.84V11zm9 2v-2h1v2a4 4 0 0 1-6.06 3.43l.51-.86q.7.42 1.55.43a3 3 0 0 0 3-3m3-.14V11h1v1.86a7 7 0 0 1-6.5 6.98V23H16v1H8v-1h3.5v-3.16a7 7 0 0 1-3.78-1.44l.61-.8A6 6 0 0 0 18 12.85"
+    />
+  </svg>
+);
+export default SvgMicrophoneOffS;

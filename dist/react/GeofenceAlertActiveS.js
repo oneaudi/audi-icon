@@ -1,0 +1,24 @@
+import * as React from "react";
+const SvgGeofenceAlertActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8.28 18.12a89 89 0 0 0 2.16 3.34l.07.1.82 1.2.94-1.35a61 61 0 0 0 1.35-2.06l.78-1.24c1.6.12 3.05.34 4.23.63a9 9 0 0 1 2.31.85c.55.31 1.06.77 1.06 1.41s-.51 1.1-1.06 1.41a9 9 0 0 1-2.31.85c-1.89.46-4.45.74-7.23.74s-5.32-.28-7.18-.74a9 9 0 0 1-2.29-.85C1.4 22.1.9 21.63.9 21c0-.64.5-1.1 1.03-1.41a9 9 0 0 1 2.29-.85 26 26 0 0 1 4.06-.62"
+    />
+    <path
+      fill="currentColor"
+      d="m14.85 3.05-1.66 3.3a2.7 2.7 0 0 0-4.57 1.98c0 1.34.97 2.46 2.25 2.68L9.37 14h6.24c-1.85 3.5-4.28 7-4.28 7S5 11.86 5 8.33A6.3 6.3 0 0 1 11.33 2c1.3 0 2.52.38 3.52 1.05"
+    />
+    <path
+      fill="currentColor"
+      d="M24 13 17.5 0l-6.51 13zm-7-8h1v3h-1zm0 4h1v2h-1z"
+    />
+  </svg>
+);
+export default SvgGeofenceAlertActiveS;

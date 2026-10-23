@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgHomeActiveS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M21.26 11.2 11.5 3.66l-9.76 7.56.92 1.18L4 11.35v5.15A2.5 2.5 0 0 0 6.5 19H19v-7.65l1.34 1.04z"
+    />
+  </svg>
+);
+export default SvgHomeActiveS;

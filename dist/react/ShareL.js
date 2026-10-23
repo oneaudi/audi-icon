@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgShareL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="m23.5 3.8 6.85 6.85-.7.7L24 5.71V29h-1V5.7l-5.65 5.65-.7-.7zM11 16h8v1h-7v23h23V17h-7v-1h8v25H11z"
+    />
+  </svg>
+);
+export default SvgShareL;

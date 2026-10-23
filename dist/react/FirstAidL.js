@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgFirstAidL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M18 6h11v12h12v11H29v12H18V29H6V18h12zm1 1v12H7v9h12v12h9V28h12v-9H28V7z"
+    />
+  </svg>
+);
+export default SvgFirstAidL;

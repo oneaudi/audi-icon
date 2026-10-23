@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgTransmissionL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M4 11h1v13h12V11h1v13h12V11h1v13h12V11h1v27h-1V25H31v13h-1V25H18v13h-1V25H4z"
+    />
+  </svg>
+);
+export default SvgTransmissionL;

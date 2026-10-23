@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSliderVerticalXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M8 1.71 2.92 6.84l-.71-.7L8 .28l5.78 5.84-.7.7zm0 12.58 5.08-5.13.71.7L8 15.72 2.22 9.87l.7-.7z"
+    />
+  </svg>
+);
+export default SvgSliderVerticalXs;

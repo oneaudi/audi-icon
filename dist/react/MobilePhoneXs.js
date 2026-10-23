@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgMobilePhoneXs = (props) => (
+  <svg
+    width={16}
+    height={16}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M4.13 1.13Q4 1.23 4 1.5v13q.01.28.13.37.1.12.37.13h7q.28-.01.37-.13.12-.1.13-.37v-13q-.01-.27-.13-.37-.1-.12-.37-.13h-7q-.27.01-.37.13m-.7-.7A1.5 1.5 0 0 1 4.5 0h7c.41 0 .8.14 1.08.42S13 1.1 13 1.5v13c0 .41-.14.8-.42 1.08a1.5 1.5 0 0 1-1.08.42h-7c-.41 0-.8-.14-1.08-.42A1.5 1.5 0 0 1 3 14.5v-13c0-.41.14-.8.42-1.08M6 13h4v1H6z"
+    />
+  </svg>
+);
+export default SvgMobilePhoneXs;

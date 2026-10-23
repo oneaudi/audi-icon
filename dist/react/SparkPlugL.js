@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgSparkPlugL = (props) => (
+  <svg
+    width={48}
+    height={48}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M22 0h3v5h.5c.42 0 .79.21 1.08.48q.44.42.74 1.05c.41.82.68 1.9.68 2.97V23h4v7h-2v5h-2v6.5a2.5 2.5 0 0 1-2 2.45v2.55c0 .83-.67 1.5-1.5 1.5h-2v-1h2a.5.5 0 0 0 .5-.5V44h-3.5a2.5 2.5 0 0 1-2.5-2.5V35h-2v-5h-2v-7h4V9.5c0-1.08.27-2.15.68-2.97q.3-.63.74-1.05A1.6 1.6 0 0 1 21.5 5h.5zm1 5h1V1h-1zm-5 25v4h11v-4zm11-1h2v-5h-2zm-1-5h-9v5h9zm-10 5v-5h-2v5zm2 6v2h7v-2zm7 3h-7v2h7zm0 3h-7v.5c0 .83.67 1.5 1.5 1.5h4c.83 0 1.5-.67 1.5-1.5zM20.57 6.97c-.34.68-.57 1.6-.57 2.53V23h7V9.5a6 6 0 0 0-.57-2.53q-.26-.51-.54-.76c-.18-.17-.31-.21-.39-.21h-4q-.12-.02-.4.2-.27.26-.53.77"
+    />
+  </svg>
+);
+export default SvgSparkPlugL;

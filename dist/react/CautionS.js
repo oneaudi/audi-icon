@@ -1,0 +1,16 @@
+import * as React from "react";
+const SvgCautionS = (props) => (
+  <svg
+    width={24}
+    height={24}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M11.5 1.47 22.35 21H.65zM2.35 20h18.3L11.5 3.53zM11 14V8h1v6zm1 2v2h-1v-2z"
+    />
+  </svg>
+);
+export default SvgCautionS;
